@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 6</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Assignment 6</h1>
+    <p class="subtitle">By Arlan Tulegenov</p>
+    <a href="ToDo.html">To-Do List</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Task 2: Changing Content</h2>
+      <p id="myParagraph">This is the original text.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <h2>Task 3: Changing Styles</h2>
+      <div id="changeBox">Change my style!</div>
+      <button onclick="changeColor()">Change Background</button>
+      <button onclick="changeFont()">Change Font Size</button>
+    </section>
+
+    <section>
+      <h2>Task 4: Creating and Removing Elements</h2>
+      <ul id="itemList">
+        <li>Item 1</li>
+      </ul>
+      <button onclick="addItem()">Add Item</button>
+      <button onclick="removeItem()">Remove Item</button>
+    </section>
+
+    <section>
+      <h2>Task 5: Mouse Events</h2>
+      <div id="colorBox"></div>
+    </section>
+
+    <section>
+      <h2>Task 6: Keyboard Events</h2>
+      <input type="text" id="textInput" placeholder="Type something...">
+      <p>Current value: <span id="displayValue"></span></p>
+    </section>
+
+    <section>
+      <h2>Task 7: Calculator</h2>
+      <div class="calculator">
+        <input type="number" id="num1" placeholder="Number 1">
+        <select id="operation">
+          <option value="add">+</option>
+          <option value="sub">−</option>
+          <option value="mul">×</option>
+          <option value="div">÷</option>
+        </select>
+        <input type="number" id="num2" placeholder="Number 2">
+        <button onclick="calculate()">=</button>
+      </div>
+      <p>Result: <span id="calcResult"></span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Arlan Tulegenov</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

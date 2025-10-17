@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f4f6;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 15px 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 15px 0;
+  margin-top: auto;
+}
+
+.subtitle {
+  font-size: 0.9em;
+  color: #cbd5e1;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.85em;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 15px 0;
+}
+
+section:last-child {
+  border: none;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin: 5px 5px 0 0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+#changeBox {
+  padding: 15px;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+#colorBox {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+input, select {
+  padding: 8px;
+  margin: 4px 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.calculator {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
